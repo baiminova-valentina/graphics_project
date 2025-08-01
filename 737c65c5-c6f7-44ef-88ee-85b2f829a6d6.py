@@ -58,6 +58,8 @@ from pandas.plotting import register_matplotlib_converters
 import warnings
 from folium import Map, Choropleth, Marker
 from folium.plugins import MarkerCluster
+import matplotlib.pyplot as plt
+plt.savefig('plot.png')  # Сохраняет график в PNG
 
 
 # In[2]:
